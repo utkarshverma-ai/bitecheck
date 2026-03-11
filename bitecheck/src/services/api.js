@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const BASE_URL = '';
+const BASE_URL = 'https://world.openfoodfacts.org';
 
 const api = axios.create({
     baseURL: BASE_URL,
